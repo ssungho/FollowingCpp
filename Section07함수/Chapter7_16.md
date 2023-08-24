@@ -1,4 +1,4 @@
-# 생략부호 Ellipsis
+# Chapter7_16 생략부호 Ellipsis
 함수를 구현할 때 매개변수의 개수가 정해져있지 않았으면 좋겠다라고 생각이 들 때 Ellipsis를 사용할 수 있다.
 
 ## ex 1
