@@ -1,7 +1,7 @@
 # Chapter8_02 캡슐화, 접근 지정자, 접근 함수
 
 ## 캡술화(Encapsulation)
-**클래스 안에 서로 연관있는 속성과 기능들을 하나의 캡슐(capsule)로 만들어 데이터를 외부로부터 보호하는 것**
+**클래스 안에 서로 연관 있는 속성과 기능들을 하나의 캡슐(capsule)로 만들어 데이터를 외부로부터 보호하는 것**
 
 ### 구조체로 정의한 Date
 ```cpp
@@ -30,7 +30,7 @@ int main(void)
 	return 0;
 }
 ```
-구조체로 정의한 Date타입인 today는 Uniform initialization, 대입등으로 값을 초기화 할 수 있다.
+구조체로 정의한 Date타입인 today는 Uniform initialization, 대입 등으로 값을 초기화 할 수 있다.
 > **외부에서 struct 멤버에 접근 가능**
 
 ## 클래스로 정의한 Date
@@ -45,7 +45,7 @@ class Date
 };
 ```
 구조체를 클래스로 변경시 외부에서 멤버 변수들을 접근할 수 없게 된다.
-> 접근 지정자가 기본값이 `private`으로 지정되어 있기 떄문
+> 접근 지정자가 기본값이 `private`으로 지정되어 있기 때문
 
 ## 접근 지정자(Access specifiers)
 **접근 지정자는 클래스 내부의 멤버를 접근할 수 있는 범위를 지정해 주는 것**
@@ -61,7 +61,7 @@ public: // access specifiers
 	int m_year;
 };
 ```
-접근 지정자를 `public`으로 선언후 외부에서 클래스의 멤버에 접근 가능하다.
+접근 지정자를 `public`으로 선언 후 외부에서 클래스의 멤버에 접근 가능하다.
 > **`public`는 외부에서 접근 가능**<br>
 > **`private`는 불가능**<br>
 > **`protected`는 상속된 클래스에서만 접근 가능함**
