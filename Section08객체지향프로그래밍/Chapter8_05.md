@@ -1,4 +1,4 @@
-# 위임 생성자(Delegating Constructors)
+# Chapter8_05 위임 생성자(Delegating Constructors)
 **생성자가 생성자를 불러오는 것을 위임 생성자라고 한다.**
 
 ## 일반 생성자 사용
