@@ -44,8 +44,8 @@ int main(void)
 - 각 인스턴스들은 자신을 가리키는 포인터를 가지고 있고 포인터를 보려면 `this`키워드를 사용하면 된다.
 - 보이지 않는 포인터가 내부적으로 들어가 있는 것
 
-### Member Function Channing
-간단한 연산을 하는 `Calc` 클래스 생성
+### 연쇄 호출(Chaining Member Functions)
+`this` 포인터를 이용하여 연쇄적으로 함수를 호출할 수 있다.
 ```cpp
 #include <iostream>
 using namespace std;
@@ -78,7 +78,7 @@ int main(void)
 	return 0;
 }
 ```
-Calc클래스의 함수들을 `this` 키워드를 이용해서 한 줄로 실행시키게 만들 수 있다.
+위 코드에서 `Calc` 클래스의 함수들을 `this` 키워드를 이용해서 한 줄로 실행시키게 만들 수 있다.
 
 *자신을 디레퍼런싱한 값을 반환하게 수정*
 ```cpp
