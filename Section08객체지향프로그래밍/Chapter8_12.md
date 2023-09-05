@@ -1,4 +1,4 @@
-# Chapter 8_12 친구 함수와 클래스 friend
+# Chapter8_12 친구 함수와 클래스 friend
 
 ## friend
 **`friend` 키워드를 이용하여 함수나 클래스를 등록하면, 그 함수나 클래스에서 자신의 `private` 멤버들을 접근할 수 있다.** 
