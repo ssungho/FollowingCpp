@@ -1,4 +1,4 @@
-# 이니셜라이저 리스트(std::initializer_list)
+# Chapter9_12 이니셜라이저 리스트(std::initializer_list)
 
 ## std::initializer_list
 **initializer_list를 사용하면 사용자 정의 자료형에서 생성자나 또는 대입 연산자를 만들 때 편하게 값을 초기화 할 수 있다.**
